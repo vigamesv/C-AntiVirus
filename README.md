@@ -30,7 +30,7 @@ build_gxx.sh         g++-only build (no CMake) - auto-locates the source,
                       auto-fetches all dependencies, and produces a single
                       C++AntiVirus.exe
 src/
-  vtscanner.cpp      The entire application: SHA-256, config persistence,
+  c++antivirus.cpp      The entire application: SHA-256, config persistence,
                       HTTP client, VirusTotal API client, background
                       directory scanner, and the Dear ImGui UI/app loop
 ```
